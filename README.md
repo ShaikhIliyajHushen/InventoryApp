@@ -4,8 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+Before Run this App Use this command for install all neccesary packages by Usinf this 
 
+### `npm install --force`
+
+Then use this command for run app:
 ### `npm start`
 
 Runs the app in the development mode.\

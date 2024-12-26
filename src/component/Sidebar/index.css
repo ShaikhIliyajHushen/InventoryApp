@@ -1,0 +1,15 @@
+.centeredIcon {
+    justify-content: center;
+  }
+
+  @media (min-width: 600px) {
+    .css-13g4w62-MuiToolbar-root {
+        min-height: 52px !important;
+    }
+}
+
+@media (min-width: 600px) {
+    .css-1ygil4i-MuiToolbar-root {
+        min-height: 53px !important;
+    }
+}   

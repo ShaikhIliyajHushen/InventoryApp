@@ -1,0 +1,38 @@
+.icon_Bacg_Color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: #FFF2E2;
+    margin-bottom: 1rem;
+}
+
+.backgroundColor {
+    background-color: #F2F4FE;
+}
+
+.card-box {
+    height: 150px;
+    padding: 15px;
+    border-radius: 12px !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.custm-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.font_Size {
+    font-size: 10px;
+}
+.gray_color {
+    color: gray;
+}

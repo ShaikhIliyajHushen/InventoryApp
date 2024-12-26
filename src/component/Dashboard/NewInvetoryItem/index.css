@@ -1,0 +1,97 @@
+ .upload-container {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    background-color: #F6F7FB;
+  }
+  
+  .icon-placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 30px;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: #777;
+  }
+  
+  .uploaded-image,
+  .uploaded-small-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .image-wrapper,
+  .image-box {
+    position: relative;
+  }
+  
+  .delete-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .delete{
+    background-color: #FFF2E2;
+    padding: 5px;
+    border-radius: 5px !important;
+  }
+  
+  .image-boxes {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .image-box {
+    width: 130px;
+    height: 130px;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #F6F7FB;
+  }
+  
+  .empty-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .upload-container input[type="file"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+  }
+  
+  .image-box input[type="file"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+  }
