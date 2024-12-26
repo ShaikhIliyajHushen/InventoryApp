@@ -129,7 +129,7 @@ const Sidebar = () => {
                         }}
                     >
                         <Box>
-                            <ListItem key='Menu' component={NavLink} to='Home'
+                            <ListItem 
                             >
                                 <ListItemIcon>
                                     <WidgetsOutlinedIcon sx={{ color: 'black !important' }} />
@@ -137,7 +137,7 @@ const Sidebar = () => {
                                 <ListItemText sx={{ color: 'black !important' }} primary='Home' />
                             </ListItem>
 
-                            <ListItem key='Bag' component={NavLink} to='Bag'>
+                            <ListItem >
                                 <ListItemIcon>
                                     <Badge badgeContent={3}
                                         sx={{
@@ -153,7 +153,7 @@ const Sidebar = () => {
                                 <ListItemText sx={{ color: 'black !important' }} primary='Home' />
                             </ListItem>
 
-                            <ListItem key='People' component={NavLink} to='People'>
+                            <ListItem >
                                 <ListItemIcon>
                                     <PeopleOutlineOutlinedIcon sx={{ color: 'black !important' }} />
                                 </ListItemIcon>
@@ -167,7 +167,7 @@ const Sidebar = () => {
                                 <ListItemText sx={{ color: 'black !important' }} primary='Setting' />
                             </ListItem>
 
-                            <ListItem key='Chat' >
+                            <ListItem >
                                 <ListItemIcon>
                                     <Badge badgeContent={16}
                                         sx={{
@@ -184,7 +184,7 @@ const Sidebar = () => {
                                 <ListItemText sx={{ color: 'black !important' }} primary='Chat' />
                             </ListItem>
 
-                            <ListItem key='Settings' >
+                            <ListItem >
                                 <ListItemIcon>
                                     <SettingsOutlinedIcon sx={{ color: 'black !important' }} />
                                 </ListItemIcon>

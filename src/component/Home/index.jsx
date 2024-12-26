@@ -4,45 +4,45 @@ import './index.css';
 
 function Index() {
 
-    const [formData, setFormData] = useState({
-        companyName: '',
-        Name: '',
-        Email: '',
-        PhoneNumber: '',
-        communicationType: ''
-    })
+    // const [formData, setFormData] = useState({
+    //     companyName: '',
+    //     Name: '',
+    //     Email: '',
+    //     PhoneNumber: '',
+    //     communicationType: ''
+    // })
 
-    const [error, setErrors] = useState(false)
+    // const [error, setErrors] = useState(false)
 
-    const handleOnchange = (e) => {
-        const { name, value } = e.target
-        setFormData((prev) => ({ ...prev, [name]: value }))
-    }
+    // const handleOnchange = (e) => {
+    //     const { name, value } = e.target
+    //     setFormData((prev) => ({ ...prev, [name]: value }))
+    // }
 
-    const handleRadio =(e)=>{
-       setFormData((prev)=>({
-           ...prev, communicationType: e.target.value
-       }))
-    }
+    // const handleRadio =(e)=>{
+    //    setFormData((prev)=>({
+    //        ...prev, communicationType: e.target.value
+    //    }))
+    // }
 
-    const validateForm = () => {
-        const newErrors = {};
-        if (!formData.companyName) newErrors.companyName = "Company name is required";
-        if (!formData.Name) newErrors.Name = "Name is required";
-        if (!formData.Email) newErrors.Email = "Email is required";
-        if (!formData.PhoneNumber) newErrors.PhoneNumber = "Phone number is required";
-        if (!formData.communicationType) newErrors.communicationType = "Select a communication type";
+    // const validateForm = () => {
+    //     const newErrors = {};
+    //     if (!formData.companyName) newErrors.companyName = "Company name is required";
+    //     if (!formData.Name) newErrors.Name = "Name is required";
+    //     if (!formData.Email) newErrors.Email = "Email is required";
+    //     if (!formData.PhoneNumber) newErrors.PhoneNumber = "Phone number is required";
+    //     if (!formData.communicationType) newErrors.communicationType = "Select a communication type";
 
-        setErrors(newErrors);
-        return Object.keys(newErrors).length === 0;
-    };
+    //     setErrors(newErrors);
+    //     return Object.keys(newErrors).length === 0;
+    // };
 
-const handleSubmit = (e) => {
-    e.preventDefault();
-    if(validateForm()){
-        console.log(formData)
-    }
-}
+// const handleSubmit = (e) => {
+//     e.preventDefault();
+//     if(validateForm()){
+//         console.log(formData)
+//     }
+// }
 
 return (
     <>
@@ -50,7 +50,7 @@ return (
             <div className='row navbar'>
                 <div className='col text-center'>Welcom to Pvt Ltd</div>
             </div>
-            <div className='row'>
+            {/* <div className='row'>
                 <div className='col-lg-8 col-md-5 col-sm-5 text-center ddd'>
                     <h1>Welcom to fhghj dhsdjkfhhjsdf hfdjklsdhflhg</h1>
                 </div>
@@ -93,7 +93,7 @@ return (
                         </form>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </>
 )
